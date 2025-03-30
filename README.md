@@ -1,5 +1,5 @@
 # MYS-6ULX-IOT modified device trees
-In this repository I share modified device trees from the preconfigured Linux source provided by MYIR Tech for the MYS-6ULX-IOT iMX6ULL based board to enable the SPI bus in order to use userspace SPIDEV under /dev/spidev0.*. I also disable some unnecessary stuff i don't use.
+In this repository I share modified device tree from the preconfigured Linux source provided by MYIR Tech for the MYS-6ULX-IOT iMX6ULL based board to enable the SPI bus in order to use userspace SPIDEV under /dev/spidev0.*. I also disable some unnecessary stuff i don't use.
 
 ## Prerequisites
 1. **Preconfigured Linux source:** available SDK provided by MYIR Tech under https://d.myirtech.com/MYS-6ULX/ - Sources
@@ -91,7 +91,9 @@ In this repository I share modified device trees from the preconfigured Linux so
 
 ## Resources
 Resolve stack trace: https://yurovsky.github.io/2016/10/07/spidev-linux-devices.html
+
 Resolve dts compilation error with typical command: https://stackoverflow.com/questions/50658326/device-tree-compiler-not-recognizes-c-syntax-for-include-files 
+
 ## Disclaimer
 All other necessary files for the board were supplied by MYIR Tech SDK and I share the 
 modification to be available as a resource. Wish i had that when i did it.
