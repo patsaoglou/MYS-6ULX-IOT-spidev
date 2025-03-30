@@ -91,7 +91,7 @@ In this repository I share modified device trees from the preconfigured Linux so
 
 ## Resources
 Resolve stack trace: https://yurovsky.github.io/2016/10/07/spidev-linux-devices.html
-
+Resolve dts compilation error with typical command: https://stackoverflow.com/questions/50658326/device-tree-compiler-not-recognizes-c-syntax-for-include-files 
 ## Disclaimer
 All other necessary files for the board were supplied by MYIR Tech SDK and I share the 
 modification to be available as a resource. Wish i had that when i did it.
